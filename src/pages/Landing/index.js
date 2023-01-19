@@ -8,9 +8,9 @@ const Landing = () => {
       <div className="card w-96 bg-primary text-primary-content">
   <div className="card-body">
     <h2 className="card-title">You've been hacked!</h2>
-    <p>LOL jk</p>
+    <p>LOL just kidding</p>
     <div className="card-actions justify-end">
-      <button className="btn">Next</button>
+      <button className="btn"><Link to={'/start'}>next</Link></button>
     </div>
   </div>
 </div>
