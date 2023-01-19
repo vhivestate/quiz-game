@@ -1,7 +1,7 @@
 {
   "name": "quiz-game",
   "version": "0.1.0",
-  "homepage": "https://vhivestate.github.io/quiz-game",
+  "homepage": "https://vhivestate.github.io/quiz-game/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
