@@ -1,4 +1,5 @@
 import './App.css'
+import React from 'react'
 import Landing from './pages/Landing';
 import Start from './pages/Start';
 import Question from './pages/Question';
