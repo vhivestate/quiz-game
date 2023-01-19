@@ -1,4 +1,4 @@
-
+import './App.css'
 import Landing from './pages/Landing';
 import Start from './pages/Start';
 import Question from './pages/Question';
