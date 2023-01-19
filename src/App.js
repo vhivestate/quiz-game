@@ -7,6 +7,7 @@ import Yes from './pages/Yes';
 import No from './pages/No';
 import Please from './pages/Please';
 import FuckOff from './pages/FuckOff';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -15,7 +16,7 @@ function App() {
     <Router>
     
       <Routes>
-        <Route path="/" element={<Landing/>}/>
+        <Route path="/quiz-game" element={<Landing/>}/>
         <Route path="/start" element={<Start/>}/>
         <Route path="/question" element={<Question/>}/>
         <Route path="/yes" element={<Yes/>}/>
