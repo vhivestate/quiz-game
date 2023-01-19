@@ -2,7 +2,6 @@
 import Landing from './pages/Landing';
 import Start from './pages/Start';
 import Question from './pages/Question';
-import Confirm from './pages/Confirm';
 import Yes from './pages/Yes';
 import No from './pages/No';
 import Please from './pages/Please';
@@ -18,7 +17,6 @@ function App() {
         <Route path="/" element={<Landing/>}/>
         <Route path="/start" element={<Start/>}/>
         <Route path="/question" element={<Question/>}/>
-        <Route path="/confirm" element={<Confirm/>}/>
         <Route path="/yes" element={<Yes/>}/>
         <Route path="/no" element={<No/>}/>
         <Route path="/please" element={<Please/>}/>

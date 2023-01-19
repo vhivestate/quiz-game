@@ -4,8 +4,8 @@ import '../../App.css'
 
 const Landing = () => {
   return (
-    <div>
-      <div className="card w-96 bg-primary text-primary-content">
+    <div className='flex flex-wrap justify-center pt-14'>
+      <div className="card w-96 bg-primary text-primary-content ">
   <div className="card-body">
     <h2 className="card-title">You've been hacked!</h2>
     <p>LOL just kidding</p>
